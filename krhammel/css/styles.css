@@ -1,0 +1,118 @@
+body .container h3 {
+  font: 1.5rem "Roboto", sans-serif;
+  text-align: center; }
+body .container p {
+  font-family: "Roboto", sans-serif;
+  font-size: .8rem;
+  line-height: 1rem;
+  margin-bottom: 0; }
+body .container header {
+  margin-top: 15px; }
+  body .container header.head-text {
+    margin-bottom: 1%; }
+  body .container header .logo-krh {
+    max-width: 60px;
+    width: 80%; }
+  body .container header h1, body .container header h2 {
+    font-family: "Alegreya Sans SC", sans-serif; }
+  body .container header h1 {
+    font-size: 2.0rem;
+    margin-bottom: 0;
+    line-height: 2rem; }
+  body .container header h2 {
+    font-size: 1rem; }
+  body .container header hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    margin-top: 0;
+    margin-bottom: 0; }
+body .container .hero-image h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 1.8rem !important; }
+  body .container .hero-image h2.description {
+    padding: 1% 5% 2%;
+    font-size: 1.4rem !important; }
+body .container .nav-format {
+  font-size: .8rem; }
+  body .container .nav-format .nav {
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 3px; }
+  body .container .nav-format .nav-item {
+    margin-right: 1rem; }
+    body .container .nav-format .nav-item.active {
+      border-bottom: 2px solid darkblue; }
+body .container .responsive-tools .box-bg, body .container .portfolio .box-bg {
+  background-color: #f1f1f1; }
+body .container .responsive-tools img, body .container .portfolio img {
+  max-width: 40%;
+  margin-left: 27%; }
+body .container .responsive-tools p, body .container .portfolio p {
+  text-align: center;
+  margin: 3% 0; }
+body .container .responsive-tools {
+  display: none; }
+body .container .portfolio {
+  display: inherit; }
+  body .container .portfolio img {
+    max-width: 100%;
+    margin-left: 0; }
+body .container .faqs {
+  display: none; }
+  body .container .faqs h4, body .container .faqs p {
+    font-family: "Roboto", sans-serif; }
+  body .container .faqs h4 {
+    padding-top: 35px; }
+  body .container .faqs h4:first-child {
+    padding-top: 0; }
+body .container-fluid footer {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: .7rem; }
+  body .container-fluid footer .top-line {
+    border-top: solid 1px #f1f1f1; }
+  body .container-fluid footer .footer-line {
+    border-right: solid 1px #f1f1f1;
+    height: 2rem; }
+  body .container-fluid footer .col-12 {
+    text-align: center;
+    padding: .5% 0; }
+  body .container-fluid footer li {
+    list-style: none; }
+@media (min-width: 768px) {
+  body .container h1 {
+    font-size: 3rem !important;
+    line-height: 2rem; }
+  body .container h2 {
+    font-size: 1.5rem !important; }
+  body .container h3 {
+    font-size: 2rem !important; }
+  body .container header .logo-krh {
+    width: 80px; }
+  body .container .nav-format {
+    font-size: 1.1rem; }
+    body .container .nav-format .nav-item {
+      margin-right: 1.9rem; } }
+@media (min-width: 992px) {
+  body .container .responsive-tools img {
+    max-width: 100px; }
+  body .container .hero-image h2 {
+    font-size: 2.5rem !important; }
+    body .container .hero-image h2.description {
+      font-size: 2rem !important; }
+  body .container .nav-format {
+    font-size: 1.1rem; }
+    body .container .nav-format .nav-item:hover {
+      cursor: pointer;
+      text-decoration: underline; } }
+@media (min-width: 1200px) {
+  body .container p {
+    font-size: 1rem;
+    line-height: 1.2rem; }
+  body .container .responsive-tools .large-wrap {
+    width: 80%;
+    margin-left: 10%; }
+  body .container-fluid footer {
+    font-size: .8rem; } }
+
+/*# sourceMappingURL=styles.css.map */

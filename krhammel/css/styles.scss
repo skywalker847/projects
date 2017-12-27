@@ -1,0 +1,219 @@
+// variables
+$cBlue: #02a8e6;
+$cBlack: #2d3c49;
+$cGray: #f1f1f1;
+
+$fHeader: 'Alegreya Sans SC', sans-serif;
+$fContent: 'Roboto', sans-serif;
+
+body {
+	.container {
+		h3 {
+			font: 1.5rem $fContent;
+			text-align:center;
+		}
+		p {
+			font-family: $fContent;
+			font-size: .8rem;
+			line-height: 1rem;
+			margin-bottom: 0;
+		}
+		header {
+			margin-top:15px;
+			&.head-text {
+				margin-bottom: 1%;
+			}
+			.logo-krh {
+				max-width: 60px;
+				width:80%
+			}
+			h1, h2 {
+				font-family: $fHeader;
+			}
+			h1 {
+				font-size: 2.0rem;
+				margin-bottom: 0;
+				line-height: 2rem;
+			}
+			h2 {
+				font-size: 1rem;
+			}
+			hr {
+				height: 10px;
+				border: 0;
+				box-shadow: 0 10px 10px -10px #8c8b8b inset;
+				margin-top: 0;
+				margin-bottom:0;
+			}
+		}   //header
+		.hero-image {
+			h2 {
+				font-family: $fHeader;
+				font-size: 1.8rem!important;
+				&.description {
+					padding: 1% 5% 2%;
+					font-size:1.4rem!important;
+				}
+			}
+		}
+		.nav-format {
+			font-size: .8rem;
+			.nav {
+				border-bottom: 2px solid $cGray;
+				padding-bottom: 3px;
+			}
+			.nav-item {
+				margin-right: 1rem;
+				&.active {
+					border-bottom: 2px solid darkblue;
+				}
+			}
+		}
+
+		.responsive-tools, .portfolio, {
+
+			.box-bg {
+				background-color: $cGray;
+			}
+			img {
+				max-width:40%;
+				margin-left: 27%;
+			}
+			p {
+				text-align:center;
+				margin: 3% 0;
+			}
+		}
+		.responsive-tools {
+			display: none;
+		}
+		.portfolio {
+			display: inherit;
+			img {
+				max-width: 100%;
+				margin-left:0;
+			}
+		}
+		.faqs {
+			display:none;
+			h4, p {
+				font-family: $fContent;
+			}
+			h4 {
+				padding-top: 35px;
+			}
+			h4:first-child {
+				padding-top: 0;
+			}
+
+		}
+	}			//container
+
+
+	.container-fluid {
+		footer {
+			width: 100%;
+			font-family: $fContent;
+			font-size: .7rem;
+			.top-line {
+				border-top: solid 1px $cGray;
+			}
+			.footer-line {
+				border-right: solid 1px $cGray;
+				height: 2rem;
+			}
+			.col-12 {
+				text-align: center;
+				padding: .5% 0;
+			}
+			li {
+				list-style: none;
+			}
+		}
+	}
+
+// ------------   Media Queries  ---------------------------
+		// Small devices (landscape phones, 576px and up)
+		@media (min-width: 576px) {
+		}
+
+		// Medium devices (tablets, 768px and up)
+		@media (min-width: 768px) {
+			.container {
+				h1 {
+					font-size: 3rem!important;
+					line-height: 2rem;
+				}
+				h2 {
+					font-size: 1.5rem!important;
+				}
+				h3 {
+					font-size: 2rem!important;
+				}
+				header { 
+					.logo-krh {
+						width: 80px;
+					}
+				}
+				.nav-format {
+					font-size: 1.1rem;
+					.nav-item {
+						margin-right: 1.9rem;
+					}
+				}
+			}
+		}
+
+		// Large devices (desktops, 992px and up)
+		@media (min-width: 992px) {
+			.container {
+				.responsive-tools {
+					img {
+						max-width:100px;
+					}
+				}
+				.hero-image {
+					h2 {
+						font-size: 2.5rem!important;
+						&.description {
+							font-size: 2rem!important;
+						}
+					}
+				}
+				.nav-format {
+					font-size: 1.1rem;
+					.nav-item {
+						&:hover {
+							cursor: pointer;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+
+		}
+
+		// Extra large devices (large desktops, 1200px and up)
+		@media (min-width: 1200px) {
+			.container {
+				p {
+					font-size: 1rem;
+					line-height: 1.2rem;
+				}
+				.responsive-tools {
+					.large-wrap {
+						width:80%;
+						margin-left: 10%;
+					}
+				}
+			}
+			.container-fluid {
+				footer {
+					font-size: .8rem;
+				}
+			}
+		}
+// ------------  End Media Queries  ---------------------------
+
+}				//body
+
